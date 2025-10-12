@@ -17,10 +17,11 @@ Pebble Mod adds beautifully crafted pebbles that spawn naturally throughout your
 
 - Use as a ranged weapons dealing 1 heart damage
 - Automatically throw pebbles from dispensers
-- 
+
 -----------------------------------------------------------------------------------------------
 
 <img width="1062" height="395" alt="Crafting" src="https://github.com/user-attachments/assets/6afde060-b390-4ccf-91ba-2802cb2ba4ef" />
+
 - Convert between pebbles and blocks (9:1 ratio)
 
 ## Perfect For:
