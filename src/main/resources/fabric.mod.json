@@ -11,7 +11,8 @@
       "modrinth": "https://modrinth.com/mod/pebbles",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/pebblesmod",
       "sources": "https://github.com/ilyrash/PebblesMod",
-      "issues": "https://github.com/ilyrash/PebblesMod/issues"
+      "issues": "https://github.com/ilyrash/PebblesMod/issues",
+	  "support-Me": "https://ko-fi.com/ilyrash" 
 	},
 	"license": "MIT",
 	"icon": "assets/pebblemod/icon.png",
