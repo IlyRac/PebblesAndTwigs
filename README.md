@@ -30,4 +30,8 @@ Pebble Mod adds beautifully crafted pebbles that spawn naturally throughout your
 - Early-game ranged weapons
 - Ground clutter for immersive builds
 
+[Support Me](https://ko-fi.com/ilyrash)
+
+[Report Issues](https://github.com/ilyrash/PebblesMod/issues)
+
 *Requires Fabric API | MIT License*
