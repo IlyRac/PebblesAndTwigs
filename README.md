@@ -44,13 +44,9 @@ Pebbles Mod adds beautifully crafted pebbles that spawn naturally throughout you
 
 [💝 Support Me](https://ko-fi.com/ilyrash)
 
-[🐛 Report Issues](https://github.com/ilyrash/PebblesMod/issues)
-
 [📦 CurseForge](https://www.curseforge.com/minecraft/mc-mods/pebblesmod)
 
 [📦 Modrinth](https://modrinth.com/mod/pebbles)
-
-[🔗 Source Code](https://github.com/ilyrash/PebblesMod)
 
 ---
 
