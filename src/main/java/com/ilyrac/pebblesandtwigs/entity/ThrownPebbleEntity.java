@@ -11,6 +11,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.projectile.throwableitemprojectile.ThrowableItemProjectile;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.ItemStackTemplate;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult;
@@ -49,10 +50,12 @@ public class ThrownPebbleEntity extends ThrowableItemProjectile {
     @Override
     public void handleEntityEvent(byte id) {
         if (id == 3) {
-            // This is the logic that actually spawns the particles on the client
             ItemStack itemStack = this.getItem();
+            // Wrap the stack in a template for the new particle system
+            ItemParticleOption particleOption = new ItemParticleOption(ParticleTypes.ITEM, new ItemStackTemplate(itemStack.getItem()));
+
             for(int i = 0; i < 8; ++i) {
-                this.level().addParticle(new ItemParticleOption(ParticleTypes.ITEM, itemStack),
+                this.level().addParticle(particleOption,
                         this.getX(), this.getY(), this.getZ(),
                         ((double)this.random.nextFloat() - 0.5) * 0.08,
                         ((double)this.random.nextFloat() - 0.5) * 0.08,
