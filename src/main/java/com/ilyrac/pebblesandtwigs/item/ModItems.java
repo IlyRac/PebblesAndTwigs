@@ -2,7 +2,7 @@ package com.ilyrac.pebblesandtwigs.item;
 
 import com.ilyrac.pebblesandtwigs.PebblesAndTwigs;
 import com.ilyrac.pebblesandtwigs.block.ModBlocks;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -151,7 +151,7 @@ public class ModItems {
     /*----------------------------------------------------------------------*/
 
     public static void initializer() {
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.NATURAL_BLOCKS).register(entries -> {
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.NATURAL_BLOCKS).register(entries -> {
             entries.accept(ANDESITE_PEBBLE);
             entries.accept(BLACKSTONE_PEBBLE);
             entries.accept(DEEPSLATE_PEBBLE);
@@ -176,7 +176,7 @@ public class ModItems {
             entries.accept(WARPED_TWIG);
         });
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS).register(entries -> {
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.BUILDING_BLOCKS).register(entries -> {
             entries.accept(STRIPPED_ACACIA_TWIG);
             entries.accept(STRIPPED_BIRCH_TWIG);
             entries.accept(STRIPPED_CHERRY_TWIG);

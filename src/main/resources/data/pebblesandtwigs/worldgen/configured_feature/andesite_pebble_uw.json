@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 40,
+          "data": {
+            "Name": "pebblesandtwigs:andesite_pebble",
+            "Properties": {
+              "amount": "1",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "weight": 30,
+          "data": {
+            "Name": "pebblesandtwigs:andesite_pebble",
+            "Properties": {
+              "amount": "2",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "pebblesandtwigs:andesite_pebble",
+            "Properties": {
+              "amount": "3",
+              "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "pebblesandtwigs:andesite_pebble",
+            "Properties": {
+              "amount": "4",
+              "waterlogged": "true"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
