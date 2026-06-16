@@ -1,4 +1,4 @@
-package com.ilyrac.pebblesandtwigs;
+package com.ilyrac.pebblesandtwigs.client;
 
 import com.ilyrac.pebblesandtwigs.entity.ModEntities;
 import net.fabricmc.api.ClientModInitializer;

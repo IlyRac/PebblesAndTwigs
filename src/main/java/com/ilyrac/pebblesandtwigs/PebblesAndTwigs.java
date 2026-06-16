@@ -6,12 +6,11 @@ import com.ilyrac.pebblesandtwigs.entity.ThrownPebbleEntity;
 import com.ilyrac.pebblesandtwigs.item.ModItems;
 import com.ilyrac.pebblesandtwigs.world.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.minecraft.core.Direction;
+import net.minecraft.core.Position;
 import net.minecraft.core.dispenser.BlockSource;
 import net.minecraft.core.dispenser.DefaultDispenseItemBehavior;
-
-import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
-import net.minecraft.core.Position;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.DispenserBlock;
