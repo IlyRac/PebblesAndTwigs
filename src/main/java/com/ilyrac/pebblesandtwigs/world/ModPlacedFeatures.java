@@ -2,8 +2,8 @@ package com.ilyrac.pebblesandtwigs.world;
 
 import com.ilyrac.pebblesandtwigs.PebblesAndTwigs;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 
 public class ModPlacedFeatures {
