@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blackstone_pebble": {
+      "conditions": {
+        "items": [
+          {
+            "items": "pebblesandtwigs:blackstone_pebble"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "pebblesandtwigs:blackstone_from_blackstone_pebble"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_blackstone_pebble"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pebblesandtwigs:blackstone_from_blackstone_pebble"
+    ]
+  }
+}

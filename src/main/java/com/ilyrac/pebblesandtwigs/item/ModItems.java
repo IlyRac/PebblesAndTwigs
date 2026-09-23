@@ -105,6 +105,10 @@ public class ModItems {
             properties -> new BlockItem(ModBlocks.PALE_OAK_TWIG, properties),
             new Item.Properties());
 
+    public static final Item POPLAR_TWIG = register("poplar_twig",
+            properties -> new BlockItem(ModBlocks.POPLAR_TWIG, properties),
+            new Item.Properties());
+
     public static final Item SPRUCE_TWIG = register("spruce_twig",
             properties -> new BlockItem(ModBlocks.SPRUCE_TWIG, properties),
             new Item.Properties());
@@ -142,6 +146,10 @@ public class ModItems {
     public static final Item STRIPPED_PALE_OAK_TWIG = register("stripped_pale_oak_twig",
             p -> new BlockItem(ModBlocks.STRIPPED_PALE_OAK_TWIG, p), new Item.Properties());
 
+    public static final Item STRIPPED_POPLAR_TWIG = register("stripped_poplar_twig",
+            properties -> new BlockItem(ModBlocks.STRIPPED_POPLAR_TWIG, properties),
+            new Item.Properties());
+
     public static final Item STRIPPED_SPRUCE_TWIG = register("stripped_spruce_twig",
             p -> new BlockItem(ModBlocks.STRIPPED_SPRUCE_TWIG, p), new Item.Properties());
 
@@ -172,6 +180,7 @@ public class ModItems {
             entries.accept(MANGROVE_TWIG);
             entries.accept(OAK_TWIG);
             entries.accept(PALE_OAK_TWIG);
+            entries.accept(POPLAR_TWIG);
             entries.accept(SPRUCE_TWIG);
             entries.accept(WARPED_TWIG);
         });
@@ -186,6 +195,7 @@ public class ModItems {
             entries.accept(STRIPPED_MANGROVE_TWIG);
             entries.accept(STRIPPED_OAK_TWIG);
             entries.accept(STRIPPED_PALE_OAK_TWIG);
+            entries.accept(STRIPPED_POPLAR_TWIG);
             entries.accept(STRIPPED_SPRUCE_TWIG);
             entries.accept(STRIPPED_WARPED_TWIG);
         });

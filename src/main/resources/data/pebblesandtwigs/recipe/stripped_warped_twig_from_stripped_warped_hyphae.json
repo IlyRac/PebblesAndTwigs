@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:stripped_warped_hyphae"
+  },
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 6,
+    "id": "pebblesandtwigs:stripped_warped_twig"
+  }
+}

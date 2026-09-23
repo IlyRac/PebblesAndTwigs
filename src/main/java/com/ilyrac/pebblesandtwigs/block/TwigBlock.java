@@ -4,12 +4,12 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
@@ -123,10 +123,14 @@ public class TwigBlock extends Block implements SimpleWaterloggedBlock {
                                                         @NonNull Player player,
                                                         @NonNull BlockHitResult hitResult) {
         ItemStack stack = player.getItemInHand(InteractionHand.MAIN_HAND);
-        if (stack.getItem() instanceof AxeItem) {
+
+        if (stack.is(ItemTags.AXES)) {
             Block strippedBlock = ModBlocks.getStripped(state.getBlock());
             if (strippedBlock != null) {
-                level.playSound(player, pos, SoundEvents.AXE_STRIP, SoundSource.BLOCKS, 1.0F, 1.0F);
+
+                // FIXED: Append .value() to the sound event reference
+                level.playSound(player, pos, SoundEvents.AXE_STRIP.value(), SoundSource.BLOCKS, 1.0F, 1.0F);
+
                 if (!level.isClientSide()) {
                     BlockState newState = strippedBlock.defaultBlockState()
                             .setValue(FACING, state.getValue(FACING))
