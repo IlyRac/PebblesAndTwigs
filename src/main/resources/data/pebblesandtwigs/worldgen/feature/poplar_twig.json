@@ -1,0 +1,88 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "data": "pebblesandtwigs:poplar_twig",
+        "weight": 24
+      },
+      {
+        "data": "pebblesandtwigs:stripped_poplar_twig",
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "pebblesandtwigs:poplar_twig",
+          "properties": {
+            "facing": "east",
+            "half": "bottom",
+            "standing": "false",
+            "waterlogged": "false"
+          }
+        },
+        "weight": 24
+      },
+      {
+        "data": {
+          "id": "pebblesandtwigs:stripped_poplar_twig",
+          "properties": {
+            "facing": "east",
+            "half": "bottom",
+            "standing": "false",
+            "waterlogged": "false"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "pebblesandtwigs:poplar_twig",
+          "properties": {
+            "facing": "south",
+            "half": "bottom",
+            "standing": "false",
+            "waterlogged": "false"
+          }
+        },
+        "weight": 24
+      },
+      {
+        "data": {
+          "id": "pebblesandtwigs:stripped_poplar_twig",
+          "properties": {
+            "facing": "south",
+            "half": "bottom",
+            "standing": "false",
+            "waterlogged": "false"
+          }
+        },
+        "weight": 1
+      },
+      {
+        "data": {
+          "id": "pebblesandtwigs:poplar_twig",
+          "properties": {
+            "facing": "west",
+            "half": "bottom",
+            "standing": "false",
+            "waterlogged": "false"
+          }
+        },
+        "weight": 24
+      },
+      {
+        "data": {
+          "id": "pebblesandtwigs:stripped_poplar_twig",
+          "properties": {
+            "facing": "west",
+            "half": "bottom",
+            "standing": "false",
+            "waterlogged": "false"
+          }
+        },
+        "weight": 1
+      }
+    ]
+  }
+}

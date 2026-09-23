@@ -119,6 +119,11 @@ public class ModBlocks {
             BlockBehaviour.Properties.of().strength(0.25f).sound(SoundType.WOOD).noOcclusion().ignitedByLava()
     );
 
+    public static final Block POPLAR_TWIG = register("poplar_twig",
+            TwigBlock::new,
+            BlockBehaviour.Properties.of().strength(0.25f).sound(SoundType.WOOD).noOcclusion().ignitedByLava()
+    );
+
     public static final Block SPRUCE_TWIG = register("spruce_twig",
             TwigBlock::new,
             BlockBehaviour.Properties.of().strength(0.25f).sound(SoundType.WOOD).noOcclusion().ignitedByLava()
@@ -167,6 +172,10 @@ public class ModBlocks {
             BlockBehaviour.Properties.of().strength(0.25f).sound(SoundType.WOOD).noOcclusion().ignitedByLava()
     );
 
+    public static final Block STRIPPED_POPLAR_TWIG = register("stripped_poplar_twig", TwigBlock::new,
+            BlockBehaviour.Properties.of().strength(0.25f).sound(SoundType.WOOD).noOcclusion().ignitedByLava()
+    );
+
     public static final Block STRIPPED_SPRUCE_TWIG = register("stripped_spruce_twig", TwigBlock::new,
             BlockBehaviour.Properties.of().strength(0.25f).sound(SoundType.WOOD).noOcclusion().ignitedByLava()
     );
@@ -199,6 +208,7 @@ public class ModBlocks {
         registerStrippable(MANGROVE_TWIG, STRIPPED_MANGROVE_TWIG);
         registerStrippable(OAK_TWIG, STRIPPED_OAK_TWIG);
         registerStrippable(PALE_OAK_TWIG, STRIPPED_PALE_OAK_TWIG);
+        registerStrippable(POPLAR_TWIG, STRIPPED_POPLAR_TWIG);
         registerStrippable(SPRUCE_TWIG, STRIPPED_SPRUCE_TWIG);
         registerStrippable(WARPED_TWIG, STRIPPED_WARPED_TWIG);
     }

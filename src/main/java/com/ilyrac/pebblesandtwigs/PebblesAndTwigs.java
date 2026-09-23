@@ -4,7 +4,7 @@ import com.ilyrac.pebblesandtwigs.block.ModBlocks;
 import com.ilyrac.pebblesandtwigs.entity.ModEntities;
 import com.ilyrac.pebblesandtwigs.entity.ThrownPebbleEntity;
 import com.ilyrac.pebblesandtwigs.item.ModItems;
-import com.ilyrac.pebblesandtwigs.world.ModWorldGeneration;
+import com.ilyrac.pebblesandtwigs.worldgen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.minecraft.core.Direction;
@@ -44,6 +44,7 @@ public class PebblesAndTwigs implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.MANGROVE_TWIG, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.OAK_TWIG, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.PALE_OAK_TWIG, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.POPLAR_TWIG, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.SPRUCE_TWIG, 5, 20);
 
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_ACACIA_TWIG, 5, 20);
@@ -54,6 +55,7 @@ public class PebblesAndTwigs implements ModInitializer {
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_MANGROVE_TWIG, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_OAK_TWIG, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_PALE_OAK_TWIG, 5, 20);
+		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_POPLAR_TWIG, 5, 20);
 		FlammableBlockRegistry.getDefaultInstance().add(ModBlocks.STRIPPED_SPRUCE_TWIG, 5, 20);
 	}
 

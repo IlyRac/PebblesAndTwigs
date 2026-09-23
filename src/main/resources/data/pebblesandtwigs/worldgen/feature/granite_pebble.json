@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:simple_block",
+  "to_place": {
+    "type": "minecraft:randomized_int",
+    "property": "amount",
+    "source": {
+      "id": "pebblesandtwigs:granite_pebble",
+      "properties": {
+        "amount": "1",
+        "facing": "north",
+        "waterlogged": "false"
+      }
+    },
+    "values": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 4,
+      "min_inclusive": 1
+    }
+  }
+}

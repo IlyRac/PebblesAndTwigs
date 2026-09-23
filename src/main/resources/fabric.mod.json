@@ -25,6 +25,9 @@
 		],
 		"client": [
 			"com.ilyrac.pebblesandtwigs.client.PebblesAndTwigsClient"
+		],
+		"fabric-datagen": [
+			"com.ilyrac.pebblesandtwigs.client.PebblesAndTwigsDataGenerator"
 		]
 	},
 	"mixins": [
@@ -35,8 +38,8 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.19.3",
-		"minecraft": "~26.2",
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
 		"java": ">=25",
 		"fabric-api": "*"
 	}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:diorite"
+  ],
+  "result": {
+    "count": 9,
+    "id": "pebblesandtwigs:diorite_pebble"
+  }
+}
